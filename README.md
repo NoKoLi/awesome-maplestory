@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="MapleStory Unity Logo" src="./etc/logo.png" width="600" height="232" />
+  <img alt="MapleStory Logo" src="./etc/logo.png" width="600" height="232" />
 </p>
 
 <p align="center">
