@@ -13,12 +13,12 @@ A curated list of awesome MapleStory emulators, libraries and software.
 **Table of Contents**
 
 - [Emulators](#emulators)
-    - [KMS (Korea)](#kms-korea)
-    - [GMS (Global)](#gms-global)
-    - [JMS (Japan)](#jms-japan)
-    - [CMS (China)](#cms-china)
-    - [TMS (Taiwan)](#tms-taiwan)
-    - [MSTH (Thailand)](#msth-thailand)
+  - [KMS (Korea)](#kms-korea)
+  - [GMS (Global)](#gms-global)
+  - [JMS (Japan)](#jms-japan)
+  - [CMS (China)](#cms-china)
+  - [TMS (Taiwan)](#tms-taiwan)
+  - [MSTH (Thailand)](#msth-thailand)
 - [Clients](#clients)
 - [Games](#games)
 - [Websites](#websites)
@@ -30,13 +30,13 @@ A curated list of awesome MapleStory emulators, libraries and software.
 
 <!-- markdown-toc end -->
 
-### Emulators
+## Emulators
 
-#### KMS (Korea)
+### KMS (Korea)
 
 - N/A
 
-#### GMS (Global)
+### GMS (Global)
 
 - [HeavenMS](https://github.com/ronancpl/HeavenMS) - An improved server based on MapleSolaxia (v83 MapleStory private server)
 - [Maple.js](https://github.com/diamondo25/Maple.js) - MapleStory Server core using Node.js
@@ -44,48 +44,48 @@ A curated list of awesome MapleStory emulators, libraries and software.
 - [Valhalla](https://github.com/Hucaru/Valhalla) - A Golang MapleStory (v28) server
 - [Orpheus](https://github.com/aatxe/Orpheus) - Open Source MapleStory Server Emulator (v83)
 
-#### JMS (Japan)
+### JMS (Japan)
 
 - N/A
 
-#### CMS (China)
+### CMS (China)
 
 - [mapleLemon](https://github.com/icelemon1314/mapleLemon) - for chinese maplestory V027
 - [MapleStory143](https://github.com/mimilewis/MapleStory143) - Chinese MapleStory Server Ver.143
 
-#### TMS (Taiwan)
+### TMS (Taiwan)
 
 - [MapleStory-v113-Server-Eimulator](https://github.com/reanox/MapleStory-v113-Server-Eimulator) - MapleStory Eimulator for Taiwan
 - [MapleStoryV119](https://github.com/reanox/MapleStoryV119)
 - [MapleStory-v120-Server-Simulator](https://github.com/reanox/MapleStory-v120-Server-Simulator)
 
-#### MSTH (Thailand)
+### MSTH (Thailand)
 
 - N/A
 
-### Clients
+## Clients
 
 - [JourneyClient](https://github.com/SYJourney/JourneyClient)
 - [HeavenClient](https://github.com/HeavenClient/HeavenClient) - A custom client for HeavenMS
 - [MapleStory-GM-Client](https://github.com/Elem8100/MapleStory-GM-Client) - Offline MapleStory Client Emulator
 
-### Games
+## Games
 
 - [MapleStory-cocos2d](https://github.com/dddzg/MapleStory-cocos2d) - cocos2d 冒险岛游戏。
 
-### Websites
+## Websites
 
 - [maplestory-music](https://maplestory-music.github.io/) - MapleStory Music website
 - [MapleStoryShop](https://github.com/Sealman234/MapleStoryShop) - MapleStoryShop
 - [Maplestory Cube Sim](https://stripedypaper.github.io/cube/) - SUPER REAL MapleStory CUBE Simulator
 
-### Art
+## Art
 
 - [BannedStory 4](http://www.maplesimulator.com/programs/bannedstory) - The most powerful character creation tool for MapleStory, BannedStory allows you to create animated characters, monsters, pets, effects, skills, chat balloons and name tags.
 - [MapleStory Network](https://maplestory.net/design) - The best MapleStory simulator and character designer, crafted by maplers for maplers.
 - [MapleStory Simulator](https://maples.im/)
 
-### Libraries
+## Libraries
 
 - [NoLifeStory](https://github.com/NoLifeDev/NoLifeStory) - This has no life
 - [NoLifeNx](https://github.com/NoLifeDev/NoLifeNx) - Library to read NX files.
@@ -95,7 +95,7 @@ A curated list of awesome MapleStory emulators, libraries and software.
 - [node-wz](https://github.com/toyobayashi/wz) - MapleStory wz reader for Node.js and browser.
 - [UnityWzLib](https://github.com/MapleStoryUnity/UnityWzLib) - WzLib for Unity
 
-### Software
+## Software
 
 - [WzComparerR2](https://github.com/Kagamia/WzComparerR2) - Maplestory online Extractor
 - [Harepacker-resurrected](https://github.com/lastbattle/Harepacker-resurrected) - File/Level editor for MapleStory game files
