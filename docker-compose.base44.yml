@@ -1,0 +1,26 @@
+services:
+  docs:
+    image: nginx:alpine
+    ports: ["3000:80"]
+    volumes:
+      - ./:/usr/share/nginx/html/repo:ro
+    command:
+      - sh
+      - -ec
+      - |
+        cat > /usr/share/nginx/html/index.html <<'EOF'
+        <!DOCTYPE html><html><head><meta charset="utf-8"><title>Awesome MapleStory</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+        </head><body><div id="app"></div>
+        <script>window.$$docsify={name:'Awesome MapleStory',basePath:'/repo/',relativePath:false};</script>
+        <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script></body></html>
+        EOF
+        sed -i 's/^user .*;/user root;/' /etc/nginx/nginx.conf
+        exec nginx -g 'daemon off;'
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/repo/README.md | grep -q MapleStory"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    restart: on-failure
